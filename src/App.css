@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw - 4px;
+  background-color: #050505;
+  color: rgb(224, 239, 253);
+}
+
+.app-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 7vh;
+}
+
+button{
+  cursor: pointer;
+}

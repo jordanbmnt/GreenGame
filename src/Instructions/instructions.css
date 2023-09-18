@@ -1,0 +1,26 @@
+container {
+  border-radius: 10px;
+  overflow-y: scroll;
+  background-color: #262c07;
+  border: 1px solid #a1e87d;
+  background-attachment: fixed;
+  width: 600px;
+  height: 450px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #6e801542;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #47520d;
+  border-radius: 17px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #353e0a;
+}

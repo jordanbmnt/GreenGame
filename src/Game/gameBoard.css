@@ -1,0 +1,40 @@
+#game-ground{
+  display: flex;
+  padding-top: 100px;
+  flex-flow: column;
+  align-items: center;
+  transform: scale(0.8);
+}
+
+.ground{
+  background-color: #262c07;
+  border-radius: 10px;
+  border: 5px dotted #a1e87da3;
+  transform: scale(0.8);
+}
+
+#userScore{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #262c07;
+  border-radius: 13px;
+  border: 5px dotted #a1e87d9e;
+  width: 400px;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.user-game-info {
+  font-size: 20px;
+}
+
+button{
+  color: white;
+  border: 1px solid #a1e87d9e;
+  background-color: #54620f;
+  border-radius: 10px;
+  padding: 10px;
+  aspect-ratio: 3/1;
+  margin: 10px;
+}
